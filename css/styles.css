@@ -224,10 +224,6 @@ body {
 /*  */
 
 /* sections */
-.sections {
-    /* margin-bottom: 5px; */
-}
-
 .sections__inner {
     padding: 0 12px 2px 12px;
     background: #fff;
@@ -915,6 +911,13 @@ body {
 @media(max-width: 375px) {
     .order-form__image{
         top: -50px;
+    }
+
+    .profile-info__image{
+        width: 108px;
+        height: 108px;
+        top: -65px;
+        margin-bottom: -60px;
     }
 }
 
