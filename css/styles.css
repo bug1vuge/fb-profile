@@ -913,6 +913,10 @@ body {
         top: -50px;
     }
 
+    .banner__image{
+        padding: 16%;
+    }
+
     .profile-info__image{
         width: 108px;
         height: 108px;
