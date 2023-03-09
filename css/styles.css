@@ -167,10 +167,11 @@ body {
     gap: 0 10px;
 }
 
-.profile-info__more-button {
+.profile-info__subscribe-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 1;
 
     gap: 0 7px;
 
@@ -180,17 +181,24 @@ body {
 
     border-radius: 5px;
     background: #0076EC;
+
     color: #fff;
+    font-size: 14px;
     font-weight: 500;
 }
 
-.profile-info__more-button .icon{
-    display: block;
-    width: 16px;
-    height: 16px;
+.profile-info__subscribe-button .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 14px;
+    height: 14px;
+
+    margin-top: 3px;
 }
 
-.profile-info__more-button .icon svg{
+.profile-info__subscribe-button .icon svg{
     fill: #fff;
     width: 100%;
     height: 100%;
@@ -201,6 +209,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 
     width: 40px;
     height: 40px;
@@ -774,7 +783,7 @@ body {
 }
 /*  */
 
-.profile-info__more-button .icon svg{
+.profile-info__subscribe-button .icon svg{
     width: 100%;
     height: 100%;
 }
@@ -801,24 +810,19 @@ body {
         font-size: 20px;
     }
 
-    .profile-info__person-name .name{
-        font-size: 28px;
+    .banner__image{
+        padding: 13%;
     }
 
-    .profile-info__more-button{
-        font-size: 14px;
-    }
-
-    .profile-info__more-button .icon{
-        width: 14px;
-        height: 14px;
+    .profile-info__image{
+        width: 128px;
+        height: 128px;
     }
 
     .sections__item{
         font-size: 14px;
         padding: 10px 6px;
     }
-
 
     .order-form__image{
         width: 55%;
@@ -868,8 +872,19 @@ body {
         padding: 15%;
     }
 
+    .profile-info__image{
+        width: 118px;
+        height: 118px;
+        top: -70px;
+        margin-bottom: -65px;
+    }
+
     .profile-info__person-name .name{
-        font-size: 24px;
+        font-size: 22px;
+    }
+
+    .profile-info__person-name{
+        margin-bottom: 8px;
     }
 
     .order-form__inner{
